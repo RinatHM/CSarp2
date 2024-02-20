@@ -1,34 +1,6 @@
 ﻿//Задача 2: Напишите программу вычисления функции Аккермана с помощью рекурсии. 
 //Даны два неотрицательных числа m и n.
-/*void FuncAnkerman(int n, int m )
-{
-    if (m = 0)
-    {
-        Console.WriteLine(n + 1);
-        return;
-    }
-    if (m = 1)
-    {
-        Console.WriteLine(n + 3);
-        return;
-    }
-    if (m = 2)
-    {
-        Console.WriteLine(2n + 3);
-        return;
-    }
-    if (m = 3)
-    {
-        double result = Math.Pow(2, n + 3) - 3;
-        Console.WriteLine(result);
-        return;
-    }
-   
-    RangeOfDigit(n + 1, m);
-    Console.WriteLine(n);
-}
-//int n = 1;
-RangeOfDigit(1, 14);*/
+
 int Ackermann(int m, int n)
 {
     if (m == 0)
